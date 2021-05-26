@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>전환</title>
+    <!-- 전환 : CSS3 프로퍼티 값이 변할 때, 값의 변화를 서서히 진행시켜 애니메이션 1회만 작동 
+        transition : 전환 프로퍼티 | 전환시간  <== 이 두 가지를 반드시 지정 
+    -->
+    <style>
+        h3{
+            transition : background 10s;
+        }
+        span{
+            transition : font-size 5s;
+        }
+        h3:hover{
+            background: chartreuse;
+        }
+        span:hover{
+            font-size: 500%;
+        }
+    </style>
+</head>
+<body>
+    <h3>transition Example</h3>
+    <hr>
+    <p><span>꽝</span>글자에 마우스 올려보세요 </p>
+</body>
+</html>

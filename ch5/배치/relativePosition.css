@@ -1,0 +1,19 @@
+div{
+    display: inline-block;
+    height: 50px; width: 50px;
+    border: 1px solid red;
+    text-align: center;
+    background: blue;
+}
+#down:hover{
+    position: relative;
+    left:20px;
+    top:20px;
+    background: chartreuse;
+}
+#up:hover{
+    position:relative;
+    right: 20px; 
+    bottom: 20px;
+    background: cornflowerblue;
+}

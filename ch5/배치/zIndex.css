@@ -1,0 +1,6 @@
+div { position: absolute;}
+img {position:absolute;}
+#spaceA { z-index: -3; left: 10px; top: 20px;}
+#dia2 { z-index : 2 ; left : 40px ; top : 30px;}
+#dia3 {z-index: 3; left: 80px; top : 40px;} 
+#joker { z-index : 7; left : 100px ; top: 60px;}
